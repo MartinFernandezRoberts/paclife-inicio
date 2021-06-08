@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Tech
+  />
+  <Home
+  />
+  <Mapa 
+  />
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home'
+import Mapa from './components/Mapa'
+import Tech from './components/Tech'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Mapa,
+    Tech,
+    Home
   }
 }
+
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Bahnschrift;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
