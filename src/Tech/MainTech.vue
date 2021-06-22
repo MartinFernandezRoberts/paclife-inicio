@@ -1,10 +1,14 @@
 <template>
-    <div class="h-screen w-screen bg-blue-600">
-        <div class="flex flex-row w-full">
-            <Tech class="flex-col"
+    <div class="h-screen w-screen bg-blue-300">
+        <div class="flex flex-row w-full items-end pt-24">
+            <Tech 
+                    class="flex-col mx-auto"
             />
-            <LogoTech class="flex-col" 
+
+            <LogoHome class="flex-col mx-auto"
+                    @click="$emit('abrirB')"
             />
+
         </div>
 
     </div>
@@ -13,12 +17,12 @@
 <script>
 
 import Tech from './components/Tech'
-import LogoTech from './components/LogoTech.vue'
+import LogoHome from '../Home/components/LogoHome'
 export default {
     name: 'MainTech',
     components:{
         Tech,
-        LogoTech
+        LogoHome
     }
 }
 </script>

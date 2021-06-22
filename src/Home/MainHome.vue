@@ -1,9 +1,12 @@
 <template>
-    <div class="h-screen w-screen bg-green-400">
-        <div class="flex flex-row w-full ">
-            <LogoHome class="flex-col"
+    <div class="h-screen w-screen bg-green-300">
+        <div class="flex flex-row w-full items-end pt-24">
+            <LogoTech 
+                    class="flex-col mx-auto"
+                    @click="$emit('abrirA')"
             />
-            <Home class="flex-col bg-white"
+            <Home 
+                    class="flex-col bg-white mx-auto"
             />
         </div>
     </div>
@@ -11,12 +14,12 @@
 
 <script>
 import Home from './components/Home'
-import LogoHome from './components/LogoHome'
+import LogoTech from '../Tech/components/LogoTech'
 export default {
     name: 'MainHome',
     components:{
         Home,
-        LogoHome
+        LogoTech
     }
 }
 </script>

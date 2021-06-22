@@ -1,11 +1,15 @@
 <template>
-    <router-link  :to="{ name: 'home'}">
+    <button
+    @click="$emit('abrir')">
         <img class="" :src="require('../../assets/PaclifeHome/PaclifeLogoHome.svg')" />
-    </router-link>
+    </button>
 </template>
 
 <script>
 export default {
-    name: "HomeInicio"
+    name: "HomeInicio",
+    props: {
+        openHome: Boolean
+    }
 }
 </script>
