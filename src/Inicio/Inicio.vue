@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!openTech & !openHome">
+  <div v-if="open===''">
         <div class="my-20">
         <MapaInicio
         />
@@ -8,27 +8,22 @@
         
         <TechInicio 
             class="flex-col mx-auto w-2/12 mr-36"
-            :openTech="openTech"
-            @abrir="openTech=!openTech"
+            @abrir="open='tech'"
         />
         <HomeInicio
             class="flex-col mx-auto w-2/12 ml-36"
-            :openHome="openHome"
-            @abrir="openHome=!openHome"
+            @abrir="open='home'"
         />
         
         </div>
     
         </div>
   </div>
-  <MainHome v-if="openHome"
-    :openHome="openHome"
-    @abrirA="openTech=!openTech" 
-
+  <MainHome v-if="open==='home'"
+    @abrir="open='tech'"
   />
-  <MainTech v-if="openTech"
-    :openTech="openTech"
-    @abrirB="openHome=!openHome"
+  <MainTech v-if="open==='tech'"
+    @abrir="open='home'"
 
   />
 </template>
@@ -53,8 +48,7 @@ export default {
   },
   data() {
     return {
-      openTech: false,
-      openHome: false
+        open: ''
     }
   },
 

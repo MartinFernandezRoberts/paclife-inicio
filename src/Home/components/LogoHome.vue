@@ -6,9 +6,6 @@
 
 <script>
 export default {
-    name: 'LogoHome',
-    props: {
-        openHome: Boolean
-    }
+    name: 'LogoHome'
 }
 </script>

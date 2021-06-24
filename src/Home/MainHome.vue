@@ -3,7 +3,7 @@
         <div class="flex flex-row w-full items-end pt-24">
             <LogoTech 
                     class="flex-col mx-auto"
-                    @click="$emit('abrirA')"
+                    @click="$emit('abrir')"
             />
             <Home 
                     class="flex-col bg-white mx-auto"

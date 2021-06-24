@@ -7,9 +7,6 @@
 
 <script>
 export default {
-    name: "HomeInicio",
-    props: {
-        openHome: Boolean
-    }
+    name: "HomeInicio"
 }
 </script>

@@ -7,9 +7,6 @@
 
 <script>
 export default {
-    name: "TechInicio",
-    props: {
-        openTech: Boolean
-    }
+    name: "TechInicio"
 }
 </script>

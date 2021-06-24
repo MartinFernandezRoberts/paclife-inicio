@@ -6,7 +6,7 @@
             />
 
             <LogoHome class="flex-col mx-auto"
-                    @click="$emit('abrirB')"
+                    @click="$emit('abrir')"
             />
 
         </div>
