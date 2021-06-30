@@ -1,30 +1,28 @@
 <template>
-  <div v-if="open===''">
-        <div class="my-20">
+  <div v-show="open===''">
+      <div class="my-20">
+        
         <MapaInicio
         />
     
         <div class="flex flex-row w-full">
-        
-        <TechInicio 
-            class="flex-col mx-auto w-2/12 mr-36"
-            @abrir="open='tech'"
-        />
-        <HomeInicio
-            class="flex-col mx-auto w-2/12 ml-36"
-            @abrir="open='home'"
-        />
-        
+          
+          <TechInicio 
+              class="flex-col mx-auto w-2/12 mr-36"
+              @abrir="open='tech'"
+          />
+          <HomeInicio
+              class="flex-col mx-auto w-2/12 ml-36"
+              @abrir="open='home'"
+          />
         </div>
-    
-        </div>
+      </div>
   </div>
-  <MainHome v-if="open==='home'"
+  <MainHome v-show="open==='home'"
     @abrir="open='tech'"
   />
-  <MainTech v-if="open==='tech'"
+  <MainTech v-show="open==='tech'"
     @abrir="open='home'"
-
   />
 </template>
 
