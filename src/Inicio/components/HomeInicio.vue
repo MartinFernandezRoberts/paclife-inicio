@@ -1,6 +1,7 @@
 <template>
     <button
-    @click="$emit('abrir')">
+    @click="$emit('abrir')"
+    >
         <img class="" :src="require('../../assets/PaclifeHome/PaclifeLogoHome.svg')" />
     </button>
 </template>
