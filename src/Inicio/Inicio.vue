@@ -1,5 +1,5 @@
 <template>
-  <div v-show="open===''">
+  <div v-show="open==='inicio'">
       <div class="my-20">
         
         <MapaInicio
@@ -20,9 +20,11 @@
   </div>
   <MainHome v-show="open==='home'"
     @abrir="open='tech'"
+    @volver="open='inicio'"
   />
   <MainTech v-show="open==='tech'"
     @abrir="open='home'"
+    @volver="open='inicio'"
   />
 </template>
 
@@ -46,7 +48,7 @@ export default {
   },
   data() {
     return {
-        open: '',
+        open: 'inicio',
 
     }
   },

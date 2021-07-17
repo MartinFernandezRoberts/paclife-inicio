@@ -1,25 +1,33 @@
 <template>
     <div class="h-screen w-screen bg-green-300">
-        <div class="flex flex-row w-full items-end pt-24">
-            <LogoTech 
-                    class="flex-col mx-auto"
-                    @click="$emit('abrir')"
+        <div class="flex flex-row w-full h-full">
+            <IzquierdaHome
+                class="flex-col mx-auto my-auto"
+                @click="$emit('abrir')"
             />
             <Home 
-                    class="flex-col bg-white mx-auto"
+                    class="flex-col mx-auto"
             />
+            <DerechaHome
+                class="flex-col mx-auto my-auto"
+                @click="$emit('volver')"
+            />
+
         </div>
     </div>
 </template>
 
 <script>
-import Home from './components/Home'
-import LogoTech from '../Tech/components/LogoTech'
+import Home from './components/Home.vue'
+import DerechaHome from './components/DerechaHome.vue'
+import IzquierdaHome from './components/IzquierdaHome.vue'
+
 export default {
     name: 'MainHome',
     components:{
         Home,
-        LogoTech
+        IzquierdaHome,
+        DerechaHome,
     }
 }
 </script>
