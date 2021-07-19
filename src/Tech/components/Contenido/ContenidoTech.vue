@@ -1,37 +1,37 @@
 <template>
     <div class="h-5/6 my-auto items-center flex">
-        <div class="w-full mx-auto z-30 -mt-16">
+        <div class="w-full mx-auto z-30 -mt-20">
              <div class="flex flex-col ">
-                <span class="flex-row mx-auto gap-x-4 bansFont text-center -space-y-2 ">
-                        <p class=" text-blue-700 font-bold text-xl tracking-tighter ">
+                <span class="flex-row mx-auto gap-x-4 antonioFont text-center -space-y-1 ">
+                        <p class=" text-blue-700 font-bold text-2xl">
                             INOCUIDAD
                         </p>
-                        <p class="text-blue-700 font-bold tracking-tighter text-xl  ">
+                        <p class="text-blue-700 font-bold text-2xl">
                             SEGURIDAD
                         </p>
-                        <p class=" text-blue-700 text-md tracking-tighter font-light ">
+                        <p class=" text-blue-700 text-md font-light">
                             Y CONSERVACIÓN
                         </p>
-                        <p class=" tracking-tighter text-xl  ">
+                        <p class="text-xl">
                             GARANTIZADA
                         </p>
                 </span>
 
             </div>
             <div class="flex flex-col pt-8">
-                <span class="flex-row justify-center mx-auto gap-x-4 bansFont align-baseline pr-20">
+                <span class="flex-row justify-center mx-auto bansFont align-baseline pr-20">
                         <p class=" text-blue-700 text-3xl inline tracking-tighter font-light">
                             DESDE
                         </p>
-                        <p class="text-blue-700 font-bold tracking-tighter text-5xl inline">
+                        <p class="text-blue-700 font-semibold tracking-tighter text-5xl inline pl-1">
                             COSECHA
                         </p>
                 </span>
-                <span class=" flex-row justify-center mx-auto gap-x-4 bansFont align-baseline mt-3 pl-20">
+                <span class=" flex-row justify-center mx-auto bansFont align-baseline mt-3 pl-20">
                         <p class="text-center text-blue-700 text-3xl inline tracking-tighter">
                             HASTA
                         </p>
-                        <p class="text-center text-blue-700 font-bold text-5xl inline tracking-tighter">
+                        <p class="text-center text-blue-700 font-semibold text-5xl inline tracking-tighter pl-1">
                             DESTINO
                         </p>
                 </span>
@@ -39,11 +39,11 @@
             </div>
 
             <div class="flex flex-col pt-8">
-                <span class="flex-row justify-center mx-auto gap-x-4 bansFont align-baseline">
-                        <p class="text-xl inline tracking-tighter ">
+                <span class="flex-row justify-center mx-auto gap-x-4 antonioFont align-baseline">
+                        <p class="text-gray-700 text-xl inline ">
                             UNA SOLUCIÓN
                         </p>
-                        <p class="font-bold tracking-tighter text-xl inline">
+                        <p class="text-gray-800 font-bold text-xl inline">
                             PARA CADA PRODUCTO
                         </p>
                 </span>
@@ -63,16 +63,16 @@ export default {
 
 <style scoped>
     @font-face {
-        font-family: Ink;
-        src: url('../../../assets/fonts/ink-free-normal.ttf');
+        font-family: Antonio;
+        src: url('../../../assets/fonts/Antonio-Regular.ttf');
     }
     @font-face {
         font-family: Bahns;
         src: url('../../../assets/fonts/Bahns.ttf');
     }
     
-    .inkFont{
-        font-family: Ink;
+    .antonioFont{
+        font-family: Antonio;
     }
 
     .bansFont{

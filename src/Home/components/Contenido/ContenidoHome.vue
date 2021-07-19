@@ -1,49 +1,49 @@
 <template>
     <div class="h-5/6 my-auto items-center flex ">
-    <div class="w-full mx-auto z-30 absolute ">
+    <div class="w-full mx-auto mt-4 z-30 absolute ">
         <div class="flex flex-row justify-center w-60 mx-auto bg-blue-600 ">
-                <div class="text-center text-white bansFont font-bold my-1 text-lg">
+                <span class="text-center text-white bansFont font-bold my-1 text-lg">
                     ENVASES INTELIGENTES
                     <br>
                     PARA EL HOGAR
-                </div>
+                </span>
         </div>
-        <div class="flex flex-row justify-center mx-auto mt-4">
-            <div class="flex flex-col justify-center">
+        <div class="flex flex-row justify-center mx-auto mt-4 pl-9">
+            <div class="flex flex-col justify-center gap-y-4">
                     <TicketHome
-                        class="h-14"
+                        class="h-10"
                     />
                     <TicketHome
-                        class="h-14"
+                        class="h-10"
                     />
                     <TicketHome
-                        class="h-14"
+                        class="h-10"
                     />
                     <TicketHome
-                        class="h-14"
+                        class="h-10"
                     />
             </div>
-            <div class="flex flex-col inkFont text-sm my-auto gap-y-4 mx-4">
-                <div>
+            <div class="flex flex-col inkFont text-sm my-auto gap-y-4 mx-3 ">
+                <span class="mt-3">
                     Alimentos frescos y protegidos
                     <br>
                     durante mucho más tiempo
-                </div>
-                <div>
+                </span>
+                <span>
                     Ahorra y reutiliza, evitando el
                     <br>
                     desperdicio de alimentos
-                </div>
-                <div>
+                </span>
+                <span>
                     Organiza tu próximo abastecimiento
                 <br>
                     de fruta y verdura en 20 días
-                </div>
-                <div >
+                </span>
+                <span >
                     Optimiza tu espacio dentro del
                 <br>
                     refrigerador
-                </div>
+                </span>
             </div>
         </div>
     </div>
