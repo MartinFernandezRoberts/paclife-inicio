@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import TextoCirculos from './svg/TextoCirculos'
+import TextoCirculos from './svg/TextoCirculos.vue'
 export default {
 
     name: "Mapa",

@@ -3,14 +3,14 @@
         <div class="flex flex-row w-full h-full">
             <IzquierdaHome
                 class="flex-col mx-auto my-auto"
-                @click="$emit('abrir')"
+                @click="$emit('volver')"
             />
             <Home 
-                    class="flex-col mx-auto"
+                    class=" mx-auto h-full w-full"
             />
             <DerechaHome
                 class="flex-col mx-auto my-auto"
-                @click="$emit('volver')"
+                @click="$emit('abrir')"
             />
 
         </div>
