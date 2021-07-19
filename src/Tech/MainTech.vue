@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-screen bg-blue-200">
+    <div class="h-screen w-screen bg-blue-100">
         <div class="flex flex-row w-full h-full">
             <IzquierdaTech 
                 class="flex-col mx-auto my-auto"
@@ -7,7 +7,7 @@
             />
             
             <Tech 
-                class="flex-col mx-auto"
+                class=" mx-auto h-full w-full cursor-pointer"
             />
             
             <DerechaTech

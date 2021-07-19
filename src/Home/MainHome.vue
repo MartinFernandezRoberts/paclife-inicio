@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-screen bg-green-300">
+    <div class="h-screen w-screen bg-pink-50">
         <div class="flex flex-row w-full h-full">
             <IzquierdaHome
                 class="flex-col mx-auto my-auto cursor-pointer"
