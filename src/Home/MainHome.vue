@@ -2,14 +2,14 @@
     <div class="h-screen w-screen bg-green-300">
         <div class="flex flex-row w-full h-full">
             <IzquierdaHome
-                class="flex-col mx-auto my-auto"
+                class="flex-col mx-auto my-auto cursor-pointer"
                 @click="$emit('volver')"
             />
             <Home 
-                    class=" mx-auto h-full w-full"
+                    class=" mx-auto h-full w-full cursor-pointer"
             />
             <DerechaHome
-                class="flex-col mx-auto my-auto"
+                class="flex-col mx-auto my-auto cursor-pointer"
                 @click="$emit('abrir')"
             />
 
