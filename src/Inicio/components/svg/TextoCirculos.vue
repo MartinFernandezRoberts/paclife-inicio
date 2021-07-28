@@ -1,5 +1,11 @@
 <template>
-<svg class="w-28 h-28 mx-auto z-10 -mt-16" viewBox="0 0 100 100">
+<svg class="w-28 h-28 mx-auto z-10 -mt-16" viewBox="0 0 100 100" 
+    shape-rendering="geometricPrecision" 
+    text-rendering="geometricPrecision" 
+    image-rendering="optimizeQuality"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    >
     <circle
         cx="50"
         cy="50"
@@ -10,7 +16,7 @@
     />
         <path
             id="arco-sup"
-            d="M 12 53 A 36 36 0 1 1 88 53"
+            d="M 11.5 50 A 38.5 38.5 0 1 1 88.5 50"
             fill="none"
         />
     <text class="text-xs tracking-widest " textLength="122">
