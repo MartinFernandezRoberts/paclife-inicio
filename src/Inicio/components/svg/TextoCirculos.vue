@@ -18,8 +18,11 @@
             xlink:href="#arco-sup"
             dominantBaseline="middle"
             textLength="122"
+            
         >
-            NANOTECNOLOGÍA PATENTADA
+            {{ $t('inicio.arcoSup')}}
+            
+        
         </textPath>
     </text>
 
@@ -35,8 +38,8 @@
             textLength="83"
         >
         
-            ECOAMIGABLE
-        
+            
+            {{ $t('inicio.arcoInf')}}
         </textPath>
     </text>
 

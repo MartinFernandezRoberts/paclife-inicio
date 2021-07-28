@@ -1,0 +1,25 @@
+{
+  "inicio": {
+    "arcoSup": "专利纳米技术",
+    "arcoInf": "环保的"
+  },
+  "home": {
+    "int": "智能包装 <br> 可在家使用",
+    "frescos": "新鲜和受保护的食物 <br> 更长时间",
+    "ahorra": "保存和再利用，避免 <br> 浪费食物",
+    "organiza": "组织您的下一个水果和蔬菜 <br> 可用 20 天",
+    "optimiza": "优化您的空间 <br> 在冰箱中"
+  },
+  "tech": {
+    "inocuidad": "安全",
+    "seguridad": "安全",
+    "cons": "和保护",
+    "garant": "保证",
+    "desde": "从",
+    "cosecha": "收成",
+    "hasta": "直到",
+    "destino": "命运",
+    "solucion": "一个办法",
+    "producto": "每个产品"
+  }
+}

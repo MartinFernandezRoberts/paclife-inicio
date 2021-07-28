@@ -1,0 +1,25 @@
+{
+  "inicio": {
+    "arcoSup": "PATENTED NANOTECHNOLOGY",
+    "arcoInf": "ECOFRIENDLY"
+  },
+  "home": {
+    "int": "INTELLIGENT PACKAGING <br> FOR THE HOME",
+    "frescos": "Fresh and protected food <br> for much longer",
+    "ahorra": "Save and reuse, avoiding <br> food waste",
+    "organiza": "Organize your next fruit <br> and vegetable supply in 20 days",
+    "optimiza": "Optimize your space inside <br> the refrigerator"
+  },
+  "tech": {
+    "inocuidad": "SAFETY",
+    "seguridad": "SECURITY",
+    "cons": "AND CONSERVATION",
+    "garant": "GUARANTEED",
+    "desde": "FROM",
+    "cosecha": "HARVEST",
+    "hasta": "UNTIL",
+    "destino": "DESTINY",
+    "solucion": "A SOLUTION",
+    "producto": "FOR EACH PRODUCT"
+  }
+}

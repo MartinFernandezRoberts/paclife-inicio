@@ -31,6 +31,7 @@
 </template>
 
 <script>
+import Selector from '../Idioma/Select.vue'
 
 import HomeInicio from './components/HomeInicio.vue'
 import MapaInicio from './components/MapaInicio.vue'
@@ -39,7 +40,7 @@ import TechInicio from './components/TechInicio.vue'
 import MainHome from '../Home/MainHome.vue'
 import MainTech from '../Tech/MainTech.vue'
 
-import Selector from '../Idioma/Selector.vue'
+
 
 export default {
   name: 'Hub',

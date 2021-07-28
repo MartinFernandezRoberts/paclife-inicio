@@ -4,16 +4,16 @@
              <div class="flex flex-col ">
                 <span class="flex-row mx-auto gap-x-4 antonioFont text-center -space-y-1 ">
                         <p class=" text-blue-700 font-bold text-2xl">
-                            INOCUIDAD
+                            {{ $t('tech.inocuidad') }}
                         </p>
                         <p class="text-blue-700 font-bold text-2xl">
-                            SEGURIDAD
+                            {{ $t('tech.seguridad') }}
                         </p>
                         <p class=" text-blue-700 text-md font-light">
-                            Y CONSERVACIÓN
+                            {{ $t('tech.cons') }}
                         </p>
                         <p class="text-xl">
-                            GARANTIZADA
+                            {{ $t('tech.garant') }}
                         </p>
                 </span>
 
@@ -21,18 +21,18 @@
             <div class="flex flex-col pt-8">
                 <span class="flex-row justify-center mx-auto bansFont align-baseline pr-20">
                         <p class=" text-blue-700 text-3xl inline tracking-tighter font-light">
-                            DESDE
+                            {{ $t('tech.desde') }}
                         </p>
                         <p class="text-blue-700 font-semibold tracking-tighter text-5xl inline pl-1">
-                            COSECHA
+                            {{ $t('tech.cosecha') }}
                         </p>
                 </span>
                 <span class=" flex-row justify-center mx-auto bansFont align-baseline mt-3 pl-20">
                         <p class="text-center text-blue-700 text-3xl inline tracking-tighter">
-                            HASTA
+                            {{ $t('tech.hasta') }}
                         </p>
                         <p class="text-center text-blue-700 font-semibold text-5xl inline tracking-tighter pl-1">
-                            DESTINO
+                            {{ $t('tech.destino') }}
                         </p>
                 </span>
                 
@@ -41,10 +41,10 @@
             <div class="flex flex-col pt-8">
                 <span class="flex-row justify-center mx-auto gap-x-4 antonioFont align-baseline">
                         <p class="text-gray-700 text-xl inline ">
-                            UNA SOLUCIÓN
+                            {{ $t('tech.solucion') }}
                         </p>
                         <p class="text-gray-800 font-bold text-xl inline">
-                            PARA CADA PRODUCTO
+                            {{ $t('tech.producto') }}
                         </p>
                 </span>
 

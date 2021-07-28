@@ -1,11 +1,7 @@
 import { createApp } from 'vue'
-import { createI18n } from 'vue-i18n'
-
 import Inicio from './Inicio/Inicio'
 import './assets/styles.css'
+import i18n from './i18n'
 
-const i18n = createI18n({
-    // something vue-i18n options here ...
-  })
 
 createApp(Inicio).use(i18n).mount('#hub')

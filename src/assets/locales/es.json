@@ -1,0 +1,25 @@
+{
+  "inicio": {
+    "arcoSup": "NANOTECNOLOGÍA PATENTADA",
+    "arcoInf": "ECOAMIGABLE"
+  },
+  "home": {
+    "int": "ENVASES INTELIGENTES <br> PARA EL HOGAR",
+    "frescos": "Alimentos frescos y protegidos <br> durante mucho más tiempo",
+    "ahorra": "Ahorra y reutiliza, evitando el <br> desperdicio de alimentos",
+    "organiza": "Organiza tu próximo abastecimiento <br> de fruta y verdura en 20 días",
+    "optimiza": "Optimiza tu espacio dentro del <br> refrigerador"
+  },
+  "tech": {
+    "inocuidad": "INOCUIDAD",
+    "seguridad": "SEGURIDAD",
+    "cons": "Y CONSERVACIÓN",
+    "garant": "GARANTIZADA",
+    "desde": "DESDE",
+    "cosecha": "COSECHA",
+    "hasta": "HASTA",
+    "destino": "DESTINO",
+    "solucion": "UNA SOLUCIÓN",
+    "producto": "PARA CADA PRODUCTO"
+  }
+}
