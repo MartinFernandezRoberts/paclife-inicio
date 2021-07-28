@@ -3,7 +3,7 @@
     <circle
         cx="50"
         cy="50"
-        r="49.5"
+        r="49"
         fill="none"
         stroke="black"
         strokeWidth="1"
@@ -13,7 +13,7 @@
             d="M 12 53 A 36 36 0 1 1 88 53"
             fill="none"
         />
-    <text class="text-sm " textLength="122">
+    <text class="text-xs tracking-widest " textLength="122">
         <textPath
             xlink:href="#arco-sup"
             dominantBaseline="middle"
@@ -28,7 +28,7 @@
             d="M 16 75 A 40 40 0 0 0 85 75"
             fill="none"
         />
-    <text class="text-sm" textLength="83">
+    <text class="text-xs tracking-widest" textLength="83">
         <textPath
             xlink:href="#arco-inf"
             dominantBaseline="middle"

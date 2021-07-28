@@ -1,4 +1,6 @@
 <template>
+  <Selector
+  />
   <div v-show="open==='inicio'">
       <div class="my-20">
         
@@ -30,12 +32,14 @@
 
 <script>
 
-import HomeInicio from './components/HomeInicio'
-import MapaInicio from './components/MapaInicio'
-import TechInicio from './components/TechInicio'
+import HomeInicio from './components/HomeInicio.vue'
+import MapaInicio from './components/MapaInicio.vue'
+import TechInicio from './components/TechInicio.vue'
 
-import MainHome from '../Home/MainHome'
-import MainTech from '../Tech/MainTech'
+import MainHome from '../Home/MainHome.vue'
+import MainTech from '../Tech/MainTech.vue'
+
+import Selector from '../Idioma/Selector.vue'
 
 export default {
   name: 'Hub',
@@ -44,7 +48,8 @@ export default {
     MainTech,
     HomeInicio,
     MapaInicio,
-    TechInicio
+    TechInicio,
+    Selector
   },
   data() {
     return {
