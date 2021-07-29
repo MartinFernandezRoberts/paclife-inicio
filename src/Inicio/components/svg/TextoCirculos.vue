@@ -20,7 +20,7 @@
             d="M 11.5 50 A 38.5 38.5 0 1 1 88.5 50"
             fill="none"
         />
-    <text class="text-xs tracking-widest " textLength="122">
+    <text class="text-xs tracking-widest bansFont " textLength="122">
         <textPath
             xlink:href="#arco-sup"
             dominantBaseline="middle"
@@ -38,7 +38,7 @@
             d="M 16 75 A 40 40 0 0 0 85 75"
             fill="none"
         />
-    <text class="text-xs tracking-widest" textLength="83">
+    <text class="text-xs tracking-widest bansFont" textLength="83">
         <textPath
             xlink:href="#arco-inf"
             dominantBaseline="middle"
@@ -62,7 +62,7 @@
         strokeWidth="1"
     />
 
-    <text
+    <text class="bansFont"
         x="30"
         y="48"
         textLength="40"
@@ -98,3 +98,12 @@ export default {
     name: 'TextoCirculos'
 }
 </script>
+<style scoped>
+    @font-face {
+        font-family: Bahns;
+        src: url('../../../assets/fonts/Bahns.ttf');
+    }
+    .bansFont{
+        font-family: Bahns;
+    }
+</style>
