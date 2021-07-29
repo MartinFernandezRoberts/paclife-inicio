@@ -1,7 +1,8 @@
 {
   "inicio": {
     "arcoSup": "PATENTED NANOTECHNOLOGY",
-    "arcoInf": "ECOFRIENDLY"
+    "arcoInf": "ECOFRIENDLY",
+    "bienv": "Welcome"
   },
   "home": {
     "int": "INTELLIGENT PACKAGING <br> FOR THE HOME",

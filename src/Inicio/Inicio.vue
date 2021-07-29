@@ -2,7 +2,7 @@
   <Selector
   />
   <div v-show="open==='inicio'">
-      <div class="my-20">
+      <div class="my-20 3xl:my-28">
         
         <MapaInicio
         />

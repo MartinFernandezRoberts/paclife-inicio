@@ -1,5 +1,6 @@
 <template>
-<svg class="w-28 h-28 mx-auto z-10 -mt-16" viewBox="0 0 100 100" 
+<svg class="w-28 h-28 mx-auto z-10 -mt-16 3xl:w-52 3xl:h-52 3xl:-mt-36"
+    viewBox="0 0 100 100" 
     shape-rendering="geometricPrecision" 
     text-rendering="geometricPrecision" 
     image-rendering="optimizeQuality"
