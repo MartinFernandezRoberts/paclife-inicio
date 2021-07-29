@@ -2,19 +2,19 @@
   <Selector
   />
   <div v-show="open==='inicio'">
-      <div class="my-20 3xl:my-28">
+      <div class="h-full mt-12 md:my-20 3xl:my-28 ">
         
         <MapaInicio
         />
     
-        <div class="flex flex-row w-full">
+        <div class="block mt-8 md:flex md:flex-row md:w-full">
           
           <TechInicio 
-              class="flex-col mx-auto w-2/12 mr-36"
+              class="md:flex-col flex mx-auto md:w-2/12 md:mr-36 w-4/6 pt-10 md:pt-0"
               @abrir="open='tech'"
           />
           <HomeInicio
-              class="flex-col mx-auto w-2/12 ml-36"
+              class="md:flex-col pt-8 md:pt-0 flex mx-auto md:w-2/12 md:ml-36 w-4/6"
               @abrir="open='home'"
           />
         </div>
