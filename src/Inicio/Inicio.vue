@@ -7,14 +7,14 @@
         <MapaInicio
         />
     
-        <div class="block mt-8 md:flex md:flex-row md:w-full">
+        <div class="block mt-8 md:flex md:flex-row lg:w-full">
           
           <TechInicio 
-              class="md:flex-col flex mx-auto md:w-2/12 md:mr-36 w-4/6 pt-10 md:pt-0"
+              class="md:flex-col flex mx-auto lg:w-2/12 md:mr-36 w-4/6 pt-10 md:pt-0"
               @abrir="open='tech'"
           />
           <HomeInicio
-              class="md:flex-col pt-8 md:pt-0 flex mx-auto md:w-2/12 md:ml-36 w-4/6"
+              class="md:flex-col pt-8 md:pt-0 flex mx-auto lg:w-2/12 md:ml-36 w-4/6"
               @abrir="open='home'"
           />
         </div>

@@ -1,15 +1,15 @@
 <template>
     <div class="h-screen w-screen bg-pink-50">
-        <div class="flex flex-row w-full h-full">
+        <div class="lg:flex lg:flex-row w-full h-full">
             <IzquierdaHome
-                class="flex-col mx-auto my-auto cursor-pointer"
+                class="lg:flex-col flex w-full mx-auto lg:my-auto mt-9 z-50 cursor-pointer"
                 @click="$emit('volver')"
             />
             <Home 
                     class=" mx-auto h-full w-full cursor-pointer"
             />
             <DerechaHome
-                class="flex-col mx-auto my-auto cursor-pointer"
+                class="lg:flex-col flex w-full mx-auto lg:my-auto -mt-16 z-50 cursor-pointer"
                 @click="$emit('abrir')"
             />
 
