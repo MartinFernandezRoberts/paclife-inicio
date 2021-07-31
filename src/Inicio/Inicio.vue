@@ -10,11 +10,11 @@
         <div class="block mt-8 md:flex md:flex-row lg:w-full">
           
           <TechInicio 
-              class="md:flex-col flex mx-auto lg:w-2/12 md:mr-36 w-4/6 pt-10 md:pt-0"
+              class="md:flex-col flex mx-auto lg:w-2/12 md:mr-36 w-4/6 pt-10 md:pt-0 4xl:w-3/12 4xl:mr-96"
               @abrir="open='tech'"
           />
           <HomeInicio
-              class="md:flex-col pt-8 md:pt-0 flex mx-auto lg:w-2/12 md:ml-36 w-4/6"
+              class="md:flex-col pt-8 md:pt-0 flex mx-auto lg:w-2/12 md:ml-36 w-4/6 4xl:w-3/12 4xl:ml-96"
               @abrir="open='home'"
           />
         </div>

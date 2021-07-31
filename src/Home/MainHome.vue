@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-screen bg-pink-50">
+    <div class="h-screen w-screen bg-homeFondo">
         <div class="lg:flex lg:flex-row w-full h-full">
             <IzquierdaHome
                 class="lg:flex-col flex w-full mx-auto lg:my-auto mt-9 z-50 cursor-pointer"

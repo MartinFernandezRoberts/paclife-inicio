@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-screen bg-blue-100">
+    <div class="h-screen w-screen bg-techFondo">
         <div class="lg:flex lg:flex-row w-full h-full">
             <IzquierdaTech 
                 class="lg:flex-col flex w-full mx-auto lg:my-auto mt-9 z-50 cursor-pointer"
@@ -14,10 +14,6 @@
                 class="lg:flex-col flex w-full mx-auto lg:my-auto -mt-16 z-50 cursor-pointer"
                 @click="$emit('abrir')"
             />
-<!--             <LogoHome class="flex-col mx-auto"
-                    @click="$emit('abrir')"
-            />
- -->
         </div>
 
     </div>
