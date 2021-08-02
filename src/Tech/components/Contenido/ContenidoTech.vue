@@ -1,6 +1,6 @@
 <template>
     <div class="static h-full my-auto items-center flex">
-        <div class="w-full mx-auto z-30 -mt-36 md:-mt-64 md:pt-2 lg:-mt-48 3xl:-mt-80 3xl:pt-16 4xl:-mt-96 ">
+        <div class="w-full mx-auto z-30 -mt-36 md:-mt-64 md:pt-2 lg:-mt-48 3xl:-mt-80 4xl:pt-16 4xl:-mt-96 ">
              <div class="flex flex-col 4xl:-mt-96 ">
                 <span class="flex-row mx-auto gap-x-4 antonioFont text-center -space-y-1 ">
                         <p class=" text-blue font-bold text-lg md:text-4xl lg:text-2xl 3xl:text-5xl 4xl:text-8xl">
