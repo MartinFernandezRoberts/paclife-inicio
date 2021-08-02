@@ -44,7 +44,7 @@ export default {
     }
     @media screen and (min-width: 3800px){
         #encPaclifeTech{
-            height: 2150px;
+            min-height: 2150px;
         }
     }
 </style>

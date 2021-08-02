@@ -1,6 +1,6 @@
 <template>
     <div class="static h-full my-auto items-center flex">
-        <div class="w-full mx-auto z-30 -mt-36 md:-mt-64 md:pt-2 lg:-mt-48 3xl:-mt-80 4xl:pt-16 4xl:-mt-96 ">
+        <div class="w-full mx-auto z-30 -mt-36 md:-mt-64 md:pt-2 lg:-mt-48 3xl:-mt-80 4xl:pt-12 4xl:-mt-96 ">
              <div class="flex flex-col 4xl:-mt-96 ">
                 <span class="flex-row mx-auto gap-x-4 antonioFont text-center -space-y-1 ">
                         <p class=" text-blue font-bold text-lg md:text-4xl lg:text-2xl 3xl:text-5xl 4xl:text-8xl">
@@ -18,20 +18,20 @@
                 </span>
 
             </div>
-            <div class="flex flex-col pt-9 md:pt-8 lg:pt-8 3xl:pt-20 4xl:pt-40">
-                <span class="flex-row justify-center mx-auto bansFont align-baseline lg:pr-32 3xl:pr-48 4xl:mt-10 4xl:pr-96">
+            <div class="flex flex-col pt-9 md:pt-8 lg:pt-8 3xl:pt-20 4xl:pt-32">
+                <span class="flex-row justify-center mx-auto bansFont align-baseline lg:pr-32 3xl:pr-48 4xl:mt-5 4xl:pr-96">
                         <p class=" text-blue text-lg mr-20 md:mr-60 lg:mr-2 md:text-3xl lg:text-3xl lg:inline tracking-tighter font-light 3xl:text-6xl 4xl:text-8xl">
                             {{ $t('tech.desde') }}
                         </p>
-                        <p class="text-blue font-semibold tracking-tighter text-2xl md:text-5xl lg:text-5xl lg:inline lg:pl-1 3xl:text-8xl 3xl:pl-3 4xl:text-9xl">
+                        <p class="text-blue font-semibold tracking-tighter text-2xl md:text-5xl lg:text-5xl lg:inline lg:pl-1 3xl:text-8xl 3xl:pl-3 4xl:text-10xl">
                             {{ $t('tech.cosecha') }}
                         </p>
                 </span>
-                <span class=" flex-row justify-center mx-auto bansFont align-baseline mt-2 md:mt-4 lg:mt-1 lg:pl-24 3xl:pl-32 4xl:pl-96 4xl:mt-24">
+                <span class=" flex-row justify-center mx-auto bansFont align-baseline mt-2 md:mt-4 lg:mt-1 lg:pl-24 3xl:pl-32 4xl:pl-96 4xl:pt-8">
                         <p class="text-right font-light lg:text-center text-blue text-lg md:text-3xl lg:text-3xl lg:inline tracking-tighter 3xl:text-6xl 4xl:text-8xl">
                             {{ $t('tech.hasta') }}
                         </p>
-                        <p class="ml-10 md:ml-24 lg:ml-2 md:text-center text-blue font-semibold text-2xl md:text-5xl lg:text-5xl inline tracking-tighter lg:pl-1 3xl:text-8xl 3xl:pl-3 4xl:text-9xl">
+                        <p class="ml-10 md:ml-24 lg:ml-2 md:text-center text-blue font-semibold text-2xl md:text-5xl lg:text-5xl inline tracking-tighter lg:pl-1 3xl:text-8xl 3xl:pl-3 4xl:text-10xl">
                             {{ $t('tech.destino') }}
                         </p>
                 </span>

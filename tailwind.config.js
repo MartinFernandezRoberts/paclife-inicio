@@ -25,6 +25,9 @@ module.exports = {
       'auto': 'auto',
     },
     extend: {
+      fontSize: {
+        '10xl': '12rem'
+      },
       screens:{
         '3xl': '1890px',
         '4xl': '3800px'
