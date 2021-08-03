@@ -34,7 +34,7 @@ module.exports = {
       },
       colors:{
         techFondo:{
-          DEFAULT: '#e5f8fb',
+          DEFAULT: '#B8E9F4',
         },
         blue:{
           DEFAULT: '#1b88a8',

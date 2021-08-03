@@ -7,7 +7,7 @@
             />
             
             <Tech 
-                class=" mx-auto h-full w-full cursor-pointer"
+                class="mx-auto flex-col flex my-auto cursor-pointer"
             />
             
             <DerechaTech
